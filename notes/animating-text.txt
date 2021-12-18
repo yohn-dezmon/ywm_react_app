@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=1rTaNzjGOek
+
+Split the words into multiple characters so we can animate them separately.
+
+
+Install styped-components:
+npm install --save styled-components
+
+keyframe animations... using styled-components:
+import styled { keyframes }  from 'styled-components';
+
+const animation = keyframes
+
+How do I make the text larger?
+How do I center the text?

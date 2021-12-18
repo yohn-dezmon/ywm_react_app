@@ -1,0 +1,11 @@
+You cant just do <img src="path/to/pic">
+you have to do: src={require("../images/terrarium.jpg")}
+
+
+OR 
+
+https://daveceddia.com/react-image-tag/
+
+[1] put it somewhere in the src directory 
+[2] import companyLogo from './path/to/logo.jpg'
+[3] <img src={companyLogo}
