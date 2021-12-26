@@ -18,5 +18,20 @@
   'main main main main main main';
 }
 
+.bandcamp-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.bandcamp-plugin {
+  border: 0;
+  width: 350px;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
 
 

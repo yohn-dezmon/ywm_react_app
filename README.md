@@ -3,6 +3,7 @@
 Dependencies:
 [1] semantic-ui (added link to public/index.html)
 [2] styled-components (downloaded with npm install)
+[3] axios: (npm install --save axios)
 
 ## Starting up React server
 
