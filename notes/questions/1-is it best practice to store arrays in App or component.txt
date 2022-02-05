@@ -1,0 +1,3 @@
+is it best practice to store arrays in App or component?
+
+{{ see Events.js }}

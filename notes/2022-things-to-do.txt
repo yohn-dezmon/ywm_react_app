@@ -1,0 +1,21 @@
+1. make text smaller for YOU WANT MILK 
+2. get a better picture 
+3. make navigation for different pages 
+[
+links to social media (bandcamp, youtube, instagram),
+contact,
+pictures, 
+
+]
+4. Make continuous animations that aren't annoying... maybe something going in a circle :D 
+5. Have some graphs...
+6. Have a Visitor Board... 
+7. Merch
+8. convert any classes I have into functional components **
+
+
+LAYOUT:
+
+{ Y W M } { PHOTO }
+social media | contact | pictures | visitor board | merch | bands we like | events 
+
