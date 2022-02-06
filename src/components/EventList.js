@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import EventItem from './components/EventItem';
+import EventItem from './EventItem';
 
 /* 
 two sections, 
@@ -12,64 +12,21 @@ interactivity? let's have links to the venues or festivals
 
 // how do I write a functional component?
 
-const previousEvents = [
-  {
-    'title': 'Harrison Watters & You Want Milk Album Release Show',
-    'venue': 'Talon Bar',
-    'date' : '2021-10-15'
-  },
-  {
-    'title': 'Rat Motel, You Want Milk, Stay off the Fence and The Idolizers at Our Wicked Lady',
-    'venue' : 'Our Wicked Lady',
-    'date': '2022-01-15' // this is mos def wrong 
-  },
-  {
-    'title': 'Open Mic & You Want Milk at Caffeine Underground'
-    'venue' : 'Caffeine Underground'
-    'date' : '2022-02-05'
-  },
 
-]
 
-const upcomingEvents = [
-  {
-    'title': "Lila's Wedding",
-    'venue': 'TBD',
-    'date' : 'TBD'
-  },
-]
-
-const EventList = ({ events }) => {
+const EventList = ({ events, listTitle }) => {
   
   const renderedList = events.map((event) => {
-    return <EventItem eventTitle={event.title} venue={event.venue} date={event.date}>
+    // these parameters are 'props'
+    return <EventItem title={event.title} venue={event.venue} date={event.date} />;
   });
   
-  return ( 
-    <div>
-      <title>
-      </title>
+  return (
+    <div className="ui relaxed divided list">
+    <h3>{listTitle}</h3>
+    {renderedList}
     </div>
-  );
-  
+  );  
 };
 
 export default EventList;
-
-import React from 'react';
-import VideoItem from './VideoItem';
-
-// instead of props.videos...
-const VideoList = ({ videos }) => {
-  const renderedList = videos.map((video) => {
-    return <VideoItem video={video} />;
-  });
-  //props.videos
-  return (
-    <div className="ui relaxed divided list">
-    {renderedList}
-    </div>
-  );
-};
-
-export default VideoList;
